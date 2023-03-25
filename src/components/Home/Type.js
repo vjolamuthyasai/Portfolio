@@ -1,5 +1,5 @@
+import React from 'react';
 import TypeWriter from 'typewriter-effect';
-
 const Type = () => {
   return (
     <TypeWriter

@@ -1,13 +1,11 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
-import {
-  AiFillGithub,
-  AiFillInstagram,
-  AiOutlineTwitter,
-} from 'react-icons/ai';
+import { AiFillGithub } from 'react-icons/ai';
 import { FaLinkedinIn } from 'react-icons/fa';
 import Tilt from 'react-parallax-tilt';
 import myImg from '../../assets/avatar.svg';
+import './Home.css';
+
 const Home = () => {
   return (
     <Container fluid className="home-about-section" id="about">
@@ -23,19 +21,19 @@ const Home = () => {
               <br />
               <br />I am fluent in classics like
               <i>
-                <b className="purple"> JavaScipt,Java and C# </b>
+                <b className="purple"> JavaScipt, Java and C# </b>
               </i>
               <br />
               <br />
               My field of Interest's are building new &nbsp;
               <i>
                 <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{' '}
+                also in areas related to Travel and Payment
               </i>
               <br />
               <br />
               Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
+              with <b className="purple">Dotnet | Spring Boot</b> and
               <i>
                 <b className="purple">
                   {' '}
@@ -44,7 +42,7 @@ const Home = () => {
               </i>
               &nbsp; like
               <i>
-                <b className="purple"> React.js and Next.js</b>
+                <b className="purple"> React.js , Next.js and Angular</b>
               </i>
             </p>
           </Col>
@@ -64,7 +62,7 @@ const Home = () => {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/soumyajit4419"
+                  href="https://github.com/vjolamuthyasai"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -74,32 +72,12 @@ const Home = () => {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/Soumyajit4419"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiOutlineTwitter />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
+                  href="https://www.linkedin.com/in/vjm-sai-1a95ab14a/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
                 >
                   <FaLinkedinIn />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.instagram.com/s.o.u.m.y.a_j.i.t/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour home-social-icons"
-                >
-                  <AiFillInstagram />
                 </a>
               </li>
             </ul>
