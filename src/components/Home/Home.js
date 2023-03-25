@@ -15,7 +15,7 @@ const Home = () => {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: '2.6em' }}>
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
+              Let Me <span className="purple"> Introduce </span> Myself
             </h1>
             <p className="home-about-body">
               I fell in love with programming and I have at least learnt

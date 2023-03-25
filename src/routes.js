@@ -6,6 +6,7 @@ export const Router = () => {
     {
       path: '/',
       element: <HomePage />,
+      children: [],
     },
   ]);
   return routes;
