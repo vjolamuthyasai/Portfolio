@@ -1,5 +1,5 @@
 import React, { Fragment, useEffect, useState } from 'react';
-import NavBar from '../../components/NavBar';
+import NavBar from '../../components/NavBar/Navbar';
 import Preloader from '../../components/Preloader';
 import ScrollToTop from '../../components/ScrollToTop';
 import HomeContainer from '../../containers/HomeContainer';

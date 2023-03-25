@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import React, { useState } from 'react';
 import { Navbar } from 'react-bootstrap';
 import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
@@ -12,8 +12,7 @@ import {
 import { CgFileDocument, CgGitFork } from 'react-icons/cg';
 import { Link } from 'react-router-dom';
 import logo from '../assets/logo.png';
-import './NavBar.css';
-import React from 'react';
+import './Navbar.css';
 
 const NavBar = () => {
   const [expand, updateExpander] = useState(false);
