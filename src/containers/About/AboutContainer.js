@@ -5,7 +5,7 @@ import AboutCard from '../../components/About/AboutCard';
 import TechStack from '../../components/About/TechStack';
 import ToolStack from '../../components/About/ToolStack';
 
-const AboutPage = () => {
+const AboutContainer = () => {
   return (
     <Container fluid className="about-section">
       <Container>
@@ -46,4 +46,4 @@ const AboutPage = () => {
   );
 };
 
-export default AboutPage;
+export default AboutContainer;

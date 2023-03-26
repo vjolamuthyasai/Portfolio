@@ -31,6 +31,7 @@ const AboutCard = () => {
           <p style={{ marginBlockEnd: 0, color: 'rgb(155 126 172)' }}>
             "Strive to build things that make a difference!"{' '}
           </p>
+          <br />
           <footer className="blockquote-footer">Vanka Jola Muthya Sai</footer>
         </blockquote>
       </Card.Body>

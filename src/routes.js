@@ -1,8 +1,8 @@
 import React from 'react';
 import { useRoutes } from 'react-router-dom';
-import AboutPage from './pages/About/About';
-import HomePage from './pages/Home/HomePage';
-import RootLayout from './pages/RootLayout';
+import AboutContainer from './containers/About/AboutContainer';
+import HomeContainer from './containers/Home/HomeContainer';
+import RootLayout from './layouts/RootLayout';
 
 export const Router = () => {
   const routes = useRoutes([
@@ -10,8 +10,8 @@ export const Router = () => {
       path: '/',
       element: <RootLayout />,
       children: [
-        { path: '/', element: <HomePage /> },
-        { path: '/about', element: <AboutPage /> },
+        { path: '/', element: <HomeContainer /> },
+        { path: '/about', element: <AboutContainer /> },
       ],
     },
   ]);

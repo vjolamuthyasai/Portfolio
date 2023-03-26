@@ -6,6 +6,7 @@ import {
   DiGit,
   DiJava,
   DiJavascript1,
+  DiJira,
   DiMongodb,
   DiNodejs,
   DiReact,
@@ -35,7 +36,9 @@ const TechStack = () => {
       <Col xs={4} md={2} className="tech-icons">
         <DiGit />
       </Col>
-
+      <Col xs={4} md={2} className="tech-icons">
+        <DiJira />
+      </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiAws />
       </Col>
