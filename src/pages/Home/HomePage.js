@@ -1,30 +1,8 @@
-import React, { Fragment, useEffect, useState } from 'react';
-import NavBar from '../../components/NavBar/Navbar';
-import Preloader from '../../components/Preloader';
-import ScrollToTop from '../../components/ScrollToTop';
+import React from 'react';
 import HomeContainer from '../../containers/HomeContainer';
 import './Home.css';
 const HomePage = () => {
-  const [load, updateLoad] = useState(true);
-
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      updateLoad(false);
-    }, 1200);
-
-    return () => clearTimeout(timer);
-  }, []);
-
-  return (
-    <Fragment>
-      <Preloader />
-      <div className="App" id={load ? 'no-scroll' : 'scroll'}>
-        <NavBar />
-        <ScrollToTop />
-        <HomeContainer />
-      </div>
-    </Fragment>
-  );
+  return <HomeContainer />;
 };
 
 export default HomePage;

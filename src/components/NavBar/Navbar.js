@@ -11,7 +11,7 @@ import {
 } from 'react-icons/ai';
 import { CgFileDocument, CgGitFork } from 'react-icons/cg';
 import { Link } from 'react-router-dom';
-import logo from '../assets/logo.png';
+import logo from '../../assets/logo.png';
 import './Navbar.css';
 
 const NavBar = () => {
