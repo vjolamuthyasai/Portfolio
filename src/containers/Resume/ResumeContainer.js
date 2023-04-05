@@ -8,7 +8,7 @@ import pdf from '../../assets/VJMSAI_Resume.pdf';
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 const resumeLink =
-  'https://github.com/vjolamuthyasai/Portfolio/blob/a243a45a88e8d6606e227df55d1f9bdd6e5387da/src/Assets/VJMSAI_Resume.pdf';
+  'https://github.com/vjolamuthyasai/Portfolio/blob/808934a62f16618d03f07779f656ee333bffc9d8/src/assets/VJMSAI_Resume.pdf';
 
 const ResumeContainer = () => {
   const [width, setWidth] = useState(1200);
