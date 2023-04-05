@@ -5,7 +5,7 @@ const Type = () => {
     <TypeWriter
       options={{
         strings: [
-          'Senior Software Engineer at JP Morgan and Chase',
+          'Software Engineer II at JP Morgan and Chase',
           'MERN Stack Developer',
           'Java Full Stack Developer',
         ],
