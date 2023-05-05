@@ -29,7 +29,7 @@ const ProjectContainer = () => {
             <ProjectCard
               imgPath={game}
               isBlog={false}
-              title="Portfolio"
+              title="2048 Clone"
               description="A fancy 2048 game build with react, redux best practices. Uses many awesome open source tools to improve code styles, includes eslint, stylelint, prettier, and Travis, codecov continuous integration services to be guaranteed for code quality and deploy application automatically"
               link="https://github.com/vjolamuthyasai/2048_clone"
             />
