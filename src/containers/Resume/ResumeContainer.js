@@ -4,11 +4,11 @@ import Button from 'react-bootstrap/Button';
 import { AiOutlineDownload } from 'react-icons/ai';
 import { Document, Page, pdfjs } from 'react-pdf';
 import 'react-pdf/dist/esm/Page/AnnotationLayer.css';
-import pdf from '../../assets/VJMSAI_Resume.pdf';
+import pdf from '../../assets/vanka_jola_muthya_sai_resume.pdf';
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 const resumeLink =
-  'https://github.com/vjolamuthyasai/Portfolio/blob/808934a62f16618d03f07779f656ee333bffc9d8/src/assets/VJMSAI_Resume.pdf';
+  'https://github.com/vjolamuthyasai/Portfolio/blob/PDF_File_upload/public/vanka_jola_muthya_sai_resume.pdf';
 
 const ResumeContainer = () => {
   const [width, setWidth] = useState(1200);
